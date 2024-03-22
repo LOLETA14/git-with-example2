@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(12, 12, 119);
+    position: fixed;
+   
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.list .item{
+   margin-top:15px ;
+}
+.list .item:hover{
+    background-color: black;
+}
+.list .item:hover a{
+    color: white;
+}
+.list .item a{
+    height: 60px;
+    color: white;
+    padding-top:20px ;
+    font-size: 20px;
+}
